@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    </style>
+  </head>
+  <body>
+    <div>
+      <video 
+      id="video"
+      src="/raw/1.mp4" 
+      controls
+      width="500px"
+      ></video>
+    </div>
+    <div class="row p-4">
+      <div class="col-6">
+        <canvas id="canvas"></canvas>
+      </div>
+      <div class="col-6">
+        <canvas id="canvas2"></canvas>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.2.0/papaparse.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.0.1/math.min.js"></script>
+    <script src="/public/script.js"></script>
+  </body>
+</html>

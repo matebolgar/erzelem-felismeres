@@ -1,0 +1,9 @@
+version: '3'
+services:
+  openface:
+    image: algebr/openface:latest
+    volumes:
+      - ./raw:/home/openface-build/raw
+      - ./processed:/home/openface-build/processed
+    stdin_open: true
+    tty: true
